@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./stylesheets/index.css";
-import App from "./App";
+import App from "./components/App";
 import { BrowserRouter } from "react-router-dom";
+import "./scss/index.scss";
+import "bulma/css/bulma.css";
 
 ReactDOM.render(
 	<React.StrictMode>
